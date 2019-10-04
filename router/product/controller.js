@@ -1,5 +1,5 @@
 const getAll = (req, res) => {
-    res.send({data : true})
+    res.send(products)
 }
 
 const getById = (req, res) => {

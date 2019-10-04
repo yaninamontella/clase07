@@ -11,6 +11,8 @@ const {
     remove
 } = controller
 
+router.use(express.json())
+
 router.get('/', getAll)
 router.get('/:id', getById)
 router.post('/', insert)
